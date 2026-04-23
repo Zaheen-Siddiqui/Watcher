@@ -1,0 +1,117 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+docs/
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+ruff_cache/
+
+# Logs
+*.log
+logs/
+data/logs/
+
+# SQLite / databases
+*.db
+*.sqlite
+*.sqlite3
+data/watcher.db
+
+# Runtime / temp files
+*.pid
+*.tmp
+*.bak
+*.cache
+
+# User exports / generated files
+data/exports/
+exports/
+
+# Build metadata
+pip-wheel-metadata/
+
+# FastAPI / uvicorn cache
+*.reload
+
+# Local config / sessions
+session.json
+token.json
+watcher_cli/config/local_config.json
+
+# Secrets / credentials
+credentials.json
+smtp_credentials.json
+
+# PyInstaller
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac resource forks
+._*
+
+# Optional Node files (if frontend ever added)
+node_modules/
+
+# Render / deployment local overrides
+render.yaml.local
+
+# Test artifacts
+test_output/
+mock_data/
